@@ -1,0 +1,33 @@
+{
+    "required_api_version": "2",
+    "name": "Trello",
+    "description": "search through your trello cards",
+    "developer_name": "Michael Aquilina",
+    "icon": "images/icon.png",
+    "options": {
+        "query_debounce": 0.3
+    },
+    "preferences": [
+        {
+            "id": "trello_kw",
+            "type": "keyword",
+            "name": "Trello Keyword",
+            "description": "Keyword to trigger Trello plugin",
+            "default_value": "tr"
+        },
+        {
+            "id": "api_key",
+            "type": "input",
+            "name": "API key",
+            "description": "Trello API Key",
+            "default_value": ""
+        },
+        {
+            "id": "api_token",
+            "type": "input",
+            "name": "API token",
+            "description": "Trello API token",
+            "default_value": ""
+        }
+    ]
+}
