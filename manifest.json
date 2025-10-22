@@ -28,6 +28,19 @@
             "name": "API token",
             "description": "Trello API token",
             "default_value": ""
+        },
+        {
+            "id": "default_sort",
+            "type": "select",
+            "name": "Sort results by",
+            "description": "Sort card results by",
+            "options": [
+                {"value": "created", "text": "Created Ascending"},
+                {"value": "-created", "text": "Created Descending"},
+                {"value": "edited", "text": "Edited Ascending"},
+                {"value": "-edited", "text": "Edoted Descending"}
+            ],
+            "default_value": "created"
         }
     ]
 }
