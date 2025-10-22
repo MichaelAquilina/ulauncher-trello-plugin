@@ -30,6 +30,17 @@
             "default_value": ""
         },
         {
+            "id": "item_action",
+            "type": "select",
+            "name": "Item action",
+            "description": "The action to take when an item is selected",
+            "options": [
+                {"value": "browser", "text": "Open in Browser"},
+                {"value": "tro", "text": "Open with tro"}
+            ],
+            "default_value": "browser"
+        },
+        {
             "id": "default_sort",
             "type": "select",
             "name": "Sort results by",
